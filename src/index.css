@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap');
+@tailwind base; @tailwind components; @tailwind utilities;
+*{font-family:'Inter',system-ui,sans-serif}
+:root{--x:50%;--y:50%} html,body,#root{height:100%}
+.glass{ @apply bg-white/10 dark:bg-white/5 backdrop-blur-xl border border-white/20 dark:border-white/10; }
+.rgb-outline{ background:linear-gradient(90deg,#ff0080,#ff8c00,#40e0d0,#00ff85,#7a5cff,#ff0080); background-size:300% 300%; animation: rgb 6s ease infinite;}
