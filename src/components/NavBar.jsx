@@ -9,7 +9,7 @@ export default function NavBar(){
   </a>)
   return(<header className=" top-0 z-30"><nav className="mx-auto max-w-7xl px-4 py-4 flex items-center justify-between">
     <div className="flex items-center gap-3"><div className="h-9 w-9 rounded-xl grid place-items-center text-white -outline shadow-2xl"></div>
-      <span className="text-lg md:text-xl font-extrabold text-indigo-950 dark:text-white">͓̽Q͓̽uickConvert</span></div>
+      <span className="text-lg md:text-xl font-extrabold text-indigo-950 dark:text-white px-5 py-2.5">͓̽Q͓̽uickConvert</span></div>
     <div className="hidden md:flex items-center gap-8">
       <NavLink href="#home">Home</NavLink>
       <NavLink href="#tools">Tools</NavLink>
@@ -23,14 +23,14 @@ export default function NavBar(){
     px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300
     border shadow-sm
     ${dark 
-      ? "bg-gray-800 text-white border-gray-700 hover:bg-gray-700" 
-      : "bg-white text-gray-900 border-gray-300 hover:bg-gray-100"}
+      ? "bg-blue-800 text-red border-red-700 hover:bg-red-700" 
+      : "bg-blue text-red-900 border-red-300 hover:bg-red-100"}
   `}
 >
   {dark ? "Dark" : "Light"}
 </button>
 
-<RGBAuthButton className="px-5 py-2.5 text-xs">Login</RGBAuthButton>
-<RGBAuthButton className="px-5 py-2.5 text-xs">Sign Up</RGBAuthButton>
+<RGBAuthButton className="px-5 py-2.5 text-xs">Log in</RGBAuthButton>
+<RGBAuthButton className="px-5 py-2.5 text-xs">Sign up</RGBAuthButton>
 
     </div></nav></header>) }

@@ -9,8 +9,8 @@ export default function Home(){
       <div className="mx-auto max-w-7xl px-4 pt-10 md:pt-16 pb-14">
         <div className="grid md:grid-cols-2 items-center gap-10">
           <div className=" mt-30px text-indigo-950 dark:text-white">
-            <h1 className="text-5xl md:text-6xl font-black leading-tight drop-shadow-sm">𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗔𝗡𝗬𝗧𝗛𝗜𝗡𝗚 <br/> 𝗔𝗡𝗬𝗧𝗛𝗜𝗡𝗚</h1>
-            <p className="mt-4 text-indigo-900/80 dark:text-white/80 text-lg max-w-xl">Simple fast and AI-powered file conversion at your fingertips.</p>
+            <h1 className="text-5xl md:text-6xl font-black leading-tight drop-shadow-sm">Smart Way to Convert Anything<br/> </h1>
+            <p className="mt-4 text-indigo-900/80 dark:text-white/80 text-lg max-w-xl">Simple fast  file conversion at your fingertips</p>
             <div className="mt-8 flex gap-4"><RadialButton href="#tools" as="a">Get Started</RadialButton></div>
           </div>
           <div className="relative"><div className="">
@@ -18,7 +18,7 @@ export default function Home(){
         </div>
         <div id="tools" className="grid md:grid-cols-3 gap-6 mt-14">
           <Card icon="📄" title="PDF → Image" text="Turn your PDFs into images instantly." btn="Convert Now"/>
-          <Card icon="🖼️" title="Image → Text (OCR)" text="Extract text from any image with AI OCR." btn="Extract Text"/>
+          <Card icon="🖼️" title="Image → Text (OCR)" text="Extract text from any image." btn="Extract Text"/>
           <Card icon="🖼️" title="PNG → JPG" text="Convert high-quality PNGs into JPGs easily." btn="Convert Now"/>
         </div>
         <div id="how" className="mt-16 rounded-3xl glass p-8">
